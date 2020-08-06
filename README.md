@@ -2,18 +2,18 @@
 
 This library provides a simple SDK to access the [OneSignal API](https://documentation.onesignal.com/docs/server-api-overview).
 
-Also check my [onesignal-ruby](https://github.com/tbalthazar/onesignal-ruby) gem.
+Originally developed by https://github.com/tbalthazar/
 
 ## Installation
 
 ```
-go get github.com/tbalthazar/onesignal-go
+go get github.com/gofura/onesignal-go
 ```
 
 ## Usage
 
 ```go
-import "github.com/tbalthazar/onesignal-go"
+import "github.com/gofura/onesignal-go"
 ```
 
 ## Documentation
