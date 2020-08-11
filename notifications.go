@@ -32,6 +32,7 @@ type Notification struct {
 type NotificationRequest struct {
 	AppID                  string            `json:"app_id"`
 	Contents               map[string]string `json:"contents,omitempty"`
+	ExternalID			   string 			 `json:"external_id"`
 	Headings               map[string]string `json:"headings,omitempty"`
 	IsIOS                  bool              `json:"isIos,omitempty"`
 	IsAndroid              bool              `json:"isAndroid,omitempty"`
